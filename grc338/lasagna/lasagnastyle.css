@@ -31,10 +31,12 @@ h3 {
 
 p {
     font-family: Helvetica, sans-serif;
+    font-size: 1em;
     line-height: 1.5;
     text-align: left;
     margin: 0.5em auto 1.5em;
-    width: 50%;
+    width: 70%;
+    max-width: 40em;
 }
 
 
@@ -51,7 +53,8 @@ ul {
     margin: 0 auto 1.5em;
     padding: 0 0 0 2em;
     text-indent: -2em;
-    width: 40%;
+    width: 50%;
+    max-width: 30em;
     line-height: 1.5;
     text-align: left;
 }
@@ -59,7 +62,8 @@ ul {
 ol {
     font-family: Helvetica, sans-serif;
     margin: 0 auto 1.5em;
-    width: 50%;
+    width: 70%;
+    max-width: 40em;
     text-align: left;
     padding: 0 0 0 2.5em;
 }
@@ -81,7 +85,8 @@ ol li {
 
 img {
     background-color: white;
-    width: 50%;
+    width: 70%;
+    max-width: 40em;
     padding: .5em;
     align-items: center
 }
