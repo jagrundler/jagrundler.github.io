@@ -97,6 +97,23 @@ a {
     font-family: Josefin Sans, sans-serif;
     text-decoration: none;
     font-weight: 800;
+    color: #542a7e;
+}
+
+.mainmenu a {
+    padding: .5em;
+}
+
+a:visited {
+    color: #3f005f;
+}
+
+.mainmenu a:hover {
+    background-color: #f9ecfe;
+}
+
+a:active {
+    color: #542a7e;
 }
 
 img {
@@ -112,7 +129,8 @@ Colors
 #542a7e
 #f9ecfe
 #fefee7
-#0ea101
+#0f5f0f
+#0aa101
 #980210
 #000142
 */
