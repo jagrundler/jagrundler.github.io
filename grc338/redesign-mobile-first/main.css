@@ -1,89 +1,96 @@
 /*CSS DOCUMENT*/
 
-img {
-    width: 80%;
-    max-width: 50em;
-    margin: 0 1em 0;
-}
-
 .maincontent img{
     max-width: 30em;
+    margin: .5em 0em;
 }
 
 .maincontent ul {
     list-style: none;
-    text-indent: -2.5em;
     text-align: left;
     width: 25em;
-    margin: 0em auto .0em;
+    margin: 0em auto;
 }
 
 .maincontent {
     text-align: center;
     margin: 0.5em auto;
-    max-width: 60em;
-}
-
-.maincontent p{
-    text-align: left;
-    margin: 0.0 auto;
     max-width: 30em;
 }
 
-.maincontent li{
-    margin: 0em auto 1em;
-}
-
-ul {
-    list-style: none;
-    text-indent: -2.5em;
+.maincontent p {
     text-align: left;
-    width: 100%;
-    margin: auto;
+    margin: 0 auto 1em;
+    
 }
 
-.contactinfo p {
-    width: 7.25em;
-    text-align: left;
-    margin: .5em auto;
+
+.foodmenu p, .foodmenu h4{
+    margin: 0 auto;
+}
+.foodmenu li{
+    margin: .5em auto 1em;
 }
 
-.contactinfo a {
-    text-indent: -2em;
+.foodmenu {
+    background-color: #f9ecfe;
+    padding: 1em;
 }
+
 
 .mainmenu ul{
     text-align: center;
     margin: 1em auto;
     width: 30em;
+    background-color: #fefee7;
+    padding: 1em;
 }
 
 .mainmenu li {
     display: inline;
-    margin: .75em;
+    margin: 1.5em;
+    line-height: 2;
     font-size: 1.25em;
 }
+
+.mainmenu a {
+    text-transform: uppercase;
+}
+
 
 .container {
     text-align: center;
 }
 
-p.contact {
-    text-align: left;
-    margin: 0.5em auto;
-    max-width: 8em;
-
-}
 
 h1, h2, h3, h4, h5, h6, p, ol, ul {
     font-family: Josefin Sans, sans-serif;
     font-weight: 100;
-    line-height: 1.3em;
+    line-height: 1.4em;
     max-width: 60em;
 }
 
-h1, h2, h3  {
+h1, h2, h3, h4  {
     font-weight: 600;
+}
+
+h1 {
+    margin: 1em 0em 0em;
+}
+
+h3, h4 {
+    margin: 1.5em 0em 0.25em;
+}
+
+h3, h4, h5, h6, p, ol, ul {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin: auto;
 }
 
 a {
@@ -91,6 +98,13 @@ a {
     text-decoration: none;
     font-weight: 800;
 }
+
+img {
+    width: 100%;
+    max-width: 50em;
+    margin: 0 1em 0;
+}
+
 
 /*
 Colors
