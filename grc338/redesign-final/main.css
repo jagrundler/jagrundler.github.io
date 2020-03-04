@@ -1,0 +1,165 @@
+/*CSS DOCUMENT*/
+
+.maincontent img{
+    max-width: 30em;
+    margin: .5em 0em;
+}
+
+.maincontent ul {
+    list-style: none;
+    text-align: left;
+    width: 25em;
+    margin: 0em auto;
+}
+
+.maincontent {
+    text-align: center;
+    margin: 0.5em auto;
+    max-width: 30em;
+}
+
+.maincontent p {
+    text-align: left;
+    margin: 0 auto 1em;
+}
+
+
+.foodmenu p, .foodmenu h4{
+    margin: 0 auto;
+}
+
+.foodmenu li{
+    margin: .5em auto 1em;
+}
+
+.foodmenu {
+    background-color: #f9ecfe;
+    padding: 1em;
+}
+
+
+.mainmenu ul{
+    text-align: center;
+    margin: 1em auto;
+    width: 25em;
+    background-color: #fefee7;
+    text-indent: -1.5em;
+}
+
+.mainmenu li {
+    display: inline;
+    line-height: 4;
+    padding: 1.5em 1.5em;
+    font-size: 1.25em;
+}
+
+.mainmenu a {
+    text-transform: uppercase;
+}
+
+.mainmenu li:hover {
+    background-color: #f9ecfe;
+}
+
+
+p.contact {
+    width: 8em;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ol, ul {
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 100;
+    line-height: 1.4em;
+    max-width: 60em;
+}
+
+h1, h2, h3, h4  {
+    font-weight: 600;
+}
+
+h1 {
+    margin: 1em 0em 0em;
+}
+
+h3, h4 {
+    margin: 1.5em 0em 0.25em;
+}
+
+h3, h4, h5, h6, p, ol, ul {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin: auto;
+}
+
+
+a {
+    font-family: Josefin Sans, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    color: #542a7e;
+}
+
+a:visited {
+    color: #3f005f;
+}
+
+a:active {
+    color: #542a7e;
+}
+
+
+img {
+    width: 100%;
+    max-width: 50em;
+    margin: 0 1em 0;
+}
+
+@media only screen and (min-width: 50em) {
+    .container {
+        max-width: 50em;
+        margin: 0 auto;
+    }
+    
+    .mainmenu ul{
+        text-align: center;
+        width: 50em;
+        padding: 1em;
+    }
+    
+    .mainmenu li {
+        padding: 1.5em;
+        line-height: 2;
+        margin: 0;
+    }
+
+    
+    .maincontent {
+    }
+
+}
+
+/*
+Colors
+#3f005f
+#542a7e
+#f9ecfe
+#fefee7
+#0f5f0f
+#0aa101
+#980210
+#000142
+*/
+
+
+
