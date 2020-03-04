@@ -24,8 +24,12 @@
 }
 
 
-.foodmenu p, .foodmenu h4{
-    margin: 0 auto;
+.foodmenu p, .foodmenu h4, .foodmenu ul {
+    margin: 0 ;
+    padding: 0;
+}
+.foodmenu ul ul {
+    padding: 0 2em;
 }
 
 .foodmenu li{
@@ -61,14 +65,36 @@
     background-color: #f9ecfe;
 }
 
+.contact {
+    column-count: 2;
+    max-width: 30em;
+    margin: 1em auto;
+    padding: 0;
+}
 
-p.contact {
-    width: 8em;
+.contact p, .contact h3 {
+    margin: 0 0 1em;
+}
+
+
+.homepage p, .homepage h3{
+    text-align: center;
+    margin: 0;
+}
+
+.homepage p {
+    margin: 1em 0em;
 }
 
 
 .container {
     text-align: center;
+}
+
+
+ul.cateringservices{
+    margin: 0 0 2em;
+
 }
 
 
