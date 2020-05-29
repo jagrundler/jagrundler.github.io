@@ -66,7 +66,7 @@ img {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     height: 100vh;
-      background-attachment: fixed;
+    background-attachment: fixed;
 
 }
 #home {
@@ -76,8 +76,7 @@ img {
 
 .inner-hero {
     background: rgba(0, 0, 10, 0.6);
-    padding: 2rem;
-    border-radius: 0.5rem;
+    padding: 0 2rem;
     grid-column: 3;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -96,16 +95,48 @@ img {
     font-weight: 200;
     text-align: center;
     letter-spacing: 2px;
-    padding: 0 0 1em 0;
+    padding: 0 0 3em 0;
 }
 .inner-hero a{
     margin: 0;
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--periwinkle);
+    margin-top: 4em;
     padding: 1em 1em 1em 1em;
+    mix-blend-mode: screen;
+    background: var(--light-periwinkle);
 }
+.inner-hero a:hover{
+    transition: all 0.3s ease;
+    color: var(--light-periwinkle);
+    background: none;
+}
+.inner-hero a {
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+}
+.inner-hero a:before {
+    content: "";
+    position: absolute;
+    border: var(--light-periwinkle) solid 4px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.3s;
+    transition-property: top, right, bottom, left;
+}
+.inner-hero a:hover:before,
+.inner-hero a:focus:before,
+.inner-hero a:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    background: none;
+}
+
   
 .flex-container {
     display: flex;
@@ -140,8 +171,8 @@ img {
 }
 .main-nav a:hover {
     background: #ffffff;
+    transition: all 0.3s ease;
     color: var(--dark-orange);
-    font-weight: 900;
 }
 .main-nav a {
     text-align: center;
@@ -249,14 +280,13 @@ article {
 
 @media only screen and (min-width: 35em) {
   /*    NAV BAR    */
-.main-nav {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-    .main-nav a {
-        padding: 1em;
+    .main-nav {
+        flex-direction: row;
+        justify-content: space-around;
     }
-    
+    .main-nav a {
+        padding: 2em;
+    }
 /*    GRID    */
     .outer img {
         max-height: 30vw;
@@ -297,11 +327,6 @@ article {
         grid-column: 2;
         grid-row: 3;
     }
-    
-    
-        
-    
-    
 }
 @media only screen and (min-width: 60em) {
 /*    NAV BAR    */
@@ -311,13 +336,10 @@ article {
     .main-nav {
         justify-content: flex-end;
     }
-    .main-nav a{
-        padding: 2em;
-    }
     .logo {
         font-size: 2em;
         font-weight: 100;
-        padding: .75em;
+        padding: 0 0 0 .75em;
     }
     
 /*    GRID    */
@@ -360,8 +382,6 @@ article {
         grid-column: 3;
         grid-row: 2;
     }
-
-    
 }
 
 /* SPLASH PAGE */
