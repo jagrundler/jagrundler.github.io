@@ -1,12 +1,9 @@
 /* Main CSS */
-/*@import url("https://use.typekit.net/fub5vhe.css");*/
 
 :root {
     --dark-orange: #b15701;
     --bright-blue: #009acd;
     --bright-blue-fade: #009acd55;
-/*    --bright-blue: #00698c;*/
-/*    --bright-blue: #000;*/
     --dark-blue: #00698c;
 }
 
@@ -33,17 +30,17 @@ font-style: normal;
 */
 
 @font-face {
-    font-family: "Avenir";
+    font-family: 'Avenir';
     src:url(files/Avenir.ttc);
     font-weight: 500;
 }
 @font-face {
-    font-family: "Avenir";
+    font-family: 'Avenir';
     src:url(files/AdobeFnt20.lst);
     font-weight: 200;
 }
 @font-face {
-    font-family: "Avenir";
+    font-family: 'Avenir';
     src:url(files/AdobeFnt21.lst);
     font-weight: 900;
 }
@@ -67,7 +64,7 @@ body {
     margin:0;
 }
         
-h2, h3, p, ul {
+h1, h2, h3, p, ul {
     font-family: 'Avenir', 'Nunito', sans-serif;
     line-height: 1.3;
 }
