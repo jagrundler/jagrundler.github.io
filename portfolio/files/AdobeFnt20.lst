@@ -1,0 +1,510 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFProText-Heavy
+FamilyName:SF Pro Text
+StyleName:Heavy
+MenuName:SF Pro Text
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:SF Pro Text Heavy
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/SF-Pro-Text-Heavy.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1356744
+FileModTime:589504186
+NameArray:0,Win,1,SF Pro Text
+NameArray:0,Win,16,SF Pro Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/AdobeFnt20.lst
+FileLength:11805
+FileModTime:594631963
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HoeflerText-Ornaments
+FamilyName:Hoefler Text
+StyleName:Ornaments
+MenuName:Hoefler Text
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Hoefler Text Ornaments
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Hoefler Text Ornaments.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:43312
+FileModTime:556235900
+NameArray:0,Mac,4,Hoefler Text Ornaments
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Book
+FamilyName:Avenir
+StyleName:Book
+MenuName:Avenir Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Book
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:72
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Book
+NameArray:0,Mac,4,Avenir Book
+NameArray:0,Win,1,Avenir Book
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-BookOblique
+FamilyName:Avenir
+StyleName:Book Oblique
+MenuName:Avenir Book
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Book Oblique
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:388
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Book Oblique
+NameArray:0,Mac,4,Avenir Book Oblique
+NameArray:0,Win,1,Avenir Book
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Black
+FamilyName:Avenir
+StyleName:Black
+MenuName:Avenir Black
+StyleBits:2
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Avenir Black
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:704
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Black
+NameArray:0,Mac,4,Avenir Black
+NameArray:0,Win,1,Avenir Black
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-BlackOblique
+FamilyName:Avenir
+StyleName:Black Oblique
+MenuName:Avenir Black Oblique
+StyleBits:3
+WeightClass:800
+WidthClass:5
+AngleClass:1
+FullName:Avenir Black Oblique
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:1004
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Black Oblique
+NameArray:0,Mac,4,Avenir Black Oblique
+NameArray:0,Win,1,Avenir Black Oblique
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Heavy
+FamilyName:Avenir
+StyleName:Heavy
+MenuName:Avenir Heavy
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Avenir Heavy
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:1304
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Heavy
+NameArray:0,Mac,4,Avenir Heavy
+NameArray:0,Win,1,Avenir Heavy
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-HeavyOblique
+FamilyName:Avenir
+StyleName:Heavy Oblique
+MenuName:Avenir Heavy
+StyleBits:3
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Avenir Heavy Oblique
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:1588
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Heavy Oblique
+NameArray:0,Mac,4,Avenir Heavy Oblique
+NameArray:0,Win,1,Avenir Heavy
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Light
+FamilyName:Avenir
+StyleName:Light
+MenuName:Avenir Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Avenir Light
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:1904
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Light
+NameArray:0,Mac,4,Avenir Light
+NameArray:0,Win,1,Avenir Light
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-LightOblique
+FamilyName:Avenir
+StyleName:Light Oblique
+MenuName:Avenir Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Avenir Light Oblique
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:2220
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Light Oblique
+NameArray:0,Mac,4,Avenir Light Oblique
+NameArray:0,Win,1,Avenir Light
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Medium
+FamilyName:Avenir
+StyleName:Medium
+MenuName:Avenir Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Avenir Medium
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:2536
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Medium
+NameArray:0,Mac,4,Avenir Medium
+NameArray:0,Win,1,Avenir Medium
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-MediumOblique
+FamilyName:Avenir
+StyleName:Medium Oblique
+MenuName:Avenir Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Avenir Medium Oblique
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:2836
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Medium Oblique
+NameArray:0,Mac,4,Avenir Medium Oblique
+NameArray:0,Win,1,Avenir Medium
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Oblique
+FamilyName:Avenir
+StyleName:Oblique
+MenuName:Avenir
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Oblique
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:3152
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Oblique
+NameArray:0,Mac,4,Avenir Oblique
+NameArray:0,Win,1,Avenir
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Roman
+FamilyName:Avenir
+StyleName:Roman
+MenuName:Avenir
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Roman
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Avenir.ttc
+TTCOffset:3468
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1639536
+FileModTime:556235900
+NameArray:0,Mac,18,Avenir Roman
+NameArray:0,Mac,4,Avenir Roman
+NameArray:0,Win,1,Avenir
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFProText-Light
+FamilyName:SF Pro Text
+StyleName:Light
+MenuName:SF Pro Text
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:SF Pro Text Light
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/SF-Pro-Text-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1357108
+FileModTime:589504186
+NameArray:0,Win,1,SF Pro Text
+NameArray:0,Win,16,SF Pro Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BodoniOrnamentsITCTT
+FamilyName:Bodoni Ornaments
+StyleName:Regular
+MenuName:Bodoni Ornaments
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bodoni Ornaments
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Bodoni Ornaments.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73972
+FileModTime:556235900
+NameArray:0,Mac,4,Bodoni Ornaments
+NameArray:0,Win,1,Bodoni Ornaments
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HoeflerText-Regular
+FamilyName:Hoefler Text
+StyleName:Regular
+MenuName:Hoefler Text
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Hoefler Text
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Hoefler Text.ttc
+TTCOffset:40
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1645292
+FileModTime:556235900
+NameArray:0,Mac,4,Hoefler Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HoeflerText-Black
+FamilyName:Hoefler Text
+StyleName:Black
+MenuName:Hoefler Text
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Hoefler Text Black
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Hoefler Text.ttc
+TTCOffset:484
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1645292
+FileModTime:556235900
+NameArray:0,Mac,4,Hoefler Text Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HoeflerText-Italic
+FamilyName:Hoefler Text
+StyleName:Italic
+MenuName:Hoefler Text
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Hoefler Text Italic
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Hoefler Text.ttc
+TTCOffset:928
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1645292
+FileModTime:556235900
+NameArray:0,Mac,4,Hoefler Text Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HoeflerText-BlackItalic
+FamilyName:Hoefler Text
+StyleName:Black Italic
+MenuName:Hoefler Text
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Hoefler Text Black Italic
+WritingScript:Roman
+OutlineFileName:/Users/josiegrundler/Desktop/Fall 2019/GRC 318/PI/Envelope Folder/Document fonts/Hoefler Text.ttc
+TTCOffset:1372
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1645292
+FileModTime:556235900
+NameArray:0,Mac,4,Hoefler Text Black Italic
+%EndFont
+
