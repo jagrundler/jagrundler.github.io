@@ -1,26 +1,8 @@
 /* Main CSS */
 
 :root {
-/*
-    --periwinkle: #7b81e1;
-    --light-periwinkle: #dfdffd;
-    --yellow: #fff5c3;
-    --light-yellow: #fff5c3;
-    --dark-orange: #b15701;
-    --bright-blue: #0051e1;
-*/
-/*
-    --periwinkle: #000000;
-    --light-periwinkle: #dfdffd;
-    --yellow: #dfdffd;
-    --light-yellow: #dfdffd;
-    --dark-orange: #b15701;
-    --bright-blue: #0051e1;
-*/
-    
     --main-dark: #000000;
     --main-light: #dfdffd;
-
 }
 
 * {
@@ -42,7 +24,7 @@ body {
 }
         
 h1, h2, h3, p {
-    font-family: 'Open Sans', "Helvetica Neue", sans-serif;
+    font-family: 'Open  Sans', "Helvetica Neue", sans-serif;
     line-height: 1.3;
 }
 h1 {
@@ -68,6 +50,7 @@ img {
     object-fit:cover;
 }
 
+/* SPLASH PAGE */
 .hero {
     background-image: url(../images/toastedmarshmallows.jpg);
     background-size: contain;
@@ -86,6 +69,7 @@ img {
     height: 100vh;
 }
 
+/* SPLASH PAGE */
 .inner-hero {
     background: rgba(0, 0, 10, 0.6);
     padding: 0 2rem;
@@ -116,6 +100,7 @@ img {
     letter-spacing: 2px;
 }
 
+/* SPLASH PAGE */
 .inner-hero a {
     color: var(--main-dark);
     margin: 0;
@@ -153,8 +138,8 @@ img {
     left: -8px;
     background: none;
 }
-
-  
+ 
+/* NAV — ALL PAGES */
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -197,6 +182,7 @@ img {
     border-bottom: none;
 }
  
+/* CARDS */
 .cards {
     display: flex;
     justify-content: center;
@@ -237,6 +223,7 @@ img {
     color: var(--main-light);
 }
 
+/* GALLERY */
 .gallery {
     margin: 1rem auto;
     display: grid;
@@ -254,13 +241,14 @@ article {
 
 }
 
+/* GRID */
 .outer img {
     max-height: 60vw;
 }
 .one {
     grid-column: 1;
     grid-row: 1;
-}
+} 
 .one img {
     object-position: center;
 }
