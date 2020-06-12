@@ -1,0 +1,422 @@
+/* Main CSS */
+
+:root {
+/*
+    --periwinkle: #7b81e1;
+    --light-periwinkle: #dfdffd;
+    --yellow: #fff5c3;
+    --light-yellow: #fff5c3;
+    --dark-orange: #b15701;
+    --bright-blue: #0051e1;
+*/
+/*
+    --periwinkle: #000000;
+    --light-periwinkle: #dfdffd;
+    --yellow: #dfdffd;
+    --light-yellow: #dfdffd;
+    --dark-orange: #b15701;
+    --bright-blue: #0051e1;
+*/
+    
+    --main-dark: #000000;
+    --main-light: #dfdffd;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background: #fff;    
+    margin:0;
+}
+        
+h1, h2, h3, p {
+    font-family: 'Open Sans', "Helvetica Neue", sans-serif;
+    line-height: 1.3;
+}
+h1 {
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    margin: 0;
+    color: var(--main-dark);
+    text-align: center;
+}
+h2 {
+    font-size: 1.75rem;
+    margin: 0;
+    color: var(--main-dark);
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.hero {
+    background-image: url(../images/toastedmarshmallows.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+#home {
+/*    padding-bottom: 10em;*/
+    height: 100vh;
+}
+
+.inner-hero {
+    background: rgba(0, 0, 10, 0.6);
+    padding: 0 2rem;
+    grid-column: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.inner-hero h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: .5em;
+}
+.inner-hero h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0 0 3em 0;
+}
+.inner-hero h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.inner-hero a {
+    color: var(--main-dark);
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 4em;
+    padding: 1em 1em 1em 1em;
+    background: var(--main-light);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+}
+.inner-hero a:hover{
+    transition: all 0.3s ease;
+    color: var(--main-light);
+    background: none;
+}
+.inner-hero a:before {
+    content: "";
+    position: absolute;
+    border: var(--main-light) solid 4px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition-duration: 0.3s;
+    transition-property: top, right, bottom, left;
+}
+.inner-hero a:hover:before,
+.inner-hero a:focus:before,
+.inner-hero a:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    background: none;
+}
+
+  
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  var(--main-light);
+}
+.logo {
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: .25em;
+}
+.logo, .main-nav {
+    list-style: none;
+    text-transform: uppercase;
+}
+.logo a, .main-nav a {
+    text-decoration: none;
+    letter-spacing: 0.45rem;
+    color: var(--main-dark);
+}
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-nav a {
+    font-weight: 900;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    padding: 10px;
+}
+.main-nav a:hover {
+    background: var(--main-dark);
+    transition: all 0.3s ease;
+    color: var(--main-light);
+}
+.main-nav li:last-of-type a {
+    border-bottom: none;
+}
+ 
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    min-width: 250px;
+    max-width: 350px;
+    background-color: var(--main-light);
+    display: flex;
+    flex-direction: column;
+    margin: 2em 1em 0em;
+    position: relative;
+    top: 0;
+}
+.photo {
+    max-height: 250px;
+}
+.cardarticle {
+    padding: 2.5rem;
+    flex-grow: 1;
+}
+.cardfooter, .cardfooter a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--main-dark);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+.cardfooter:hover {
+    transition: all 0.3s ease;
+    background: var(--main-dark);
+}
+.cardfooter a:hover {
+    transition: all 0.3s ease;
+    color: var(--main-light);
+}
+
+.gallery {
+    margin: 1rem auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    width: 80%;
+}
+article {
+    margin: 0;
+    padding: 0;
+    padding: 2.5rem;
+    background-color: var(--main-light);
+    flex-grow: 1;
+
+}
+
+.outer img {
+    max-height: 60vw;
+}
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.one img {
+    object-position: center;
+}
+.two {
+    grid-column: 1;
+    grid-row: 3;
+}
+.two img {
+    object-position: bottom;
+}
+.three {
+    grid-column: 1;
+    grid-row: 5;
+}
+.three img {
+    object-position: center;
+}
+.four {
+    grid-column: 1;
+    grid-row: 2;
+}
+.five {
+    grid-column: 1;
+    grid-row: 4;
+}
+.five img {
+    object-position: center;
+}
+.six {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+@media only screen and (min-width: 35em) {
+  /*    NAV BAR    */
+    .main-nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-nav a {
+        padding: 2em;
+    }
+/*    GRID    */
+    .outer img {
+        max-height: 30vw;
+    }
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .one img {
+        object-position: center;
+    }
+    .two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .two img {
+        object-position: bottom;
+    }
+    .three {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .three img {
+        object-position: center;
+    }
+    .four {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .five {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .five img {
+        object-position: center;
+    }
+    .six {
+        grid-column: 2;
+        grid-row: 3;
+    }
+}
+@media only screen and (min-width: 60em) {
+/*    NAV BAR    */
+    .flex-container {
+        flex-direction: row;
+    }
+    .main-nav {
+        justify-content: flex-end;
+    }
+    .logo {
+        font-size: 2em;
+        font-weight: 100;
+        padding: 0 0 0 .75em;
+    }
+    
+/*    GRID    */
+    .outer img {
+        max-height: 20vw;
+    }
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .one img {
+        object-position: center;
+    }
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .two img {
+        object-position: bottom;
+    }
+    .three {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .three img {
+        object-position: center;
+    }
+    .four {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .five {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .five img {
+        object-position: center;
+    }
+    .six {
+        grid-column: 3;
+        grid-row: 2;
+    }
+}
+
+/* SPLASH PAGE */
+@media (min-width: 600px) {
+    .inner-hero {
+        grid-column: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+}
+@media (min-width: 1000px) {
+    .inner-hero {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+        .hero {
+        background-image: url(../images/toastedmarshmallows.jpg);
+        background-size: cover;
+    }
+}
