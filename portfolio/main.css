@@ -12,6 +12,8 @@
     src:url(files/Avenir.ttc);
     font-weight: 500;
 }
+/*
+
 @font-face {
     font-family: 'Avenir';
     src:url(files/AdobeFnt20.lst);
@@ -22,6 +24,7 @@
     src:url(files/AdobeFnt21.lst);
     font-weight: 900;
 }
+*/
 
 * {
     box-sizing: border-box;
@@ -49,18 +52,26 @@ h1, h2, h3, p, ul {
 h1 {
     font-size: 4rem;
     padding-top: 3rem;
-    text-align: center;
     color: var(--bright-blue);
 }
 h2 {
-    font-size: 2rem;
-    margin: 0 0 .5em 0;
-    text-align: center;
+    font-size: 1.5rem;
 }
 p {
     font-size: 1rem;
     line-height: 1.5;
-    margin: 0 0 .25em 0
+    margin-bottom: 1rem;
+}
+.container a {
+/*    color: var(--bright-blue);*/
+    font-weight: 900;
+    text-decoration: none;
+}
+p a{
+    color: var(--bright-blue);
+}
+.container a:hover {
+    text-decoration: underline double;
 }
 img {
     display: block;
@@ -68,114 +79,165 @@ img {
     width: 100%;
     object-fit:cover;
 }
-div.container {
-    max-width: 35em;
-    margin: 0 auto;
+img.logo{
+    max-height: 10em;
+    margin-bottom: 1em;
+    padding-top: 2em;
 }
 
+div.container {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0 4em;
+}
 .flex-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-h1.logo {
+.script {
     font-family: 'Beloved-script', sans-serif;
     font-weight: 900;
+    font-size: 5rem;
+    color: white;
+    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
 }
-.logo, .main-nav {
+.home-title {
+    font-size: 4rem;
+}
+.logo, .main-nav, .links {
     font-weight: 900;
     list-style: none;
     text-transform: lowercase;
     text-align: center;
 }
-.logo {
-    font-size: 3rem;
-    padding-top: 1rem;
+.links {
+    display: flex;
+    flex-direction: row;
+}
+.links a{
+    margin-right: 1rem;
+    color: var(--bright-blue);
+
 }
 .main-nav {
-    font-size: 1.25rem;
+    font-size: 1.25em;
     display: flex;
     flex-direction: column;
     width: 100%;
     letter-spacing: 0.3rem;
 }
-nav {
-    padding-bottom: 2em;
-}
 
-.logo a{
+.main-nav a {
     color: var(--bright-blue);
     text-decoration: none;
-}
-.main-nav a {
-    color: #000;
-    text-decoration: none;
-}
-.main-nav a {
     display: block;
-    padding: 1rem;    
+    padding: 1rem;
 }
+.main-nav a:visited, .logo a:visited {
+    color: var(--bright-blue);
+}
+
 .logo a:hover {
     transition: all 0.3s ease;
-    color: #000;
+    color: white;
+    box-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
+
 }
 .main-nav a:hover {
     transition: all 0.3s ease;
-    color: var(--bright-blue);
+    color: white;
+    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
 }
 
 .cards {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
+
 .card {
-    max-width: 80vw;
-    display: flex;
-    flex-direction: column;
-    margin: 2rem auto;
+    box-shadow: gray 1px 1px 5px;
+    margin: 2rem 0rem;
     position: relative;
+    text-align: center;
     top: 0;
-    border: #000 solid;
+    background-color: var(--bright-blue-fade);
 }
-.photo {
-    border-bottom: solid #000;
-    border-right: none;
+.card img {
+    opacity: .90;
 }
-.photo img:hover {
-    opacity: .25;
+.card:hover img{
+    opacity: .1;
+    transition: all 0.2s ease;
+}
+.card:hover {
     background-color: var(--bright-blue);
-}
-.cardarticle {
-    width: 35em;
-    background-color: none;
-    flex-grow: 1;
-    
-}
-.cardarticle h2 {
-    text-align: left;
-    color: var(--bright-blue);
-}
-.cardarticle p{
-    margin-bottom: 1em;
-}
-a.cardarticle {
-    font-family: 'Avenir', 'Nunito', sans-serif;
-    text-decoration: none;
-    font-weight: 900;
-    color: #000;
-}
-a.cardarticle:hover {
-    transition: all 0.3s ease;
-    color: var(--bright-blue);
+    transition: all 0.2s ease;
 }
 
-article {
+.card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card .card-text {
+    opacity: 0%;
+}
+.card:hover .card-text {
+    opacity: 100%;
+    transition: all 0.2s ease;
+    color: white;
+    text-shadow: var(--bright-blue) 0px 0px 2rem, var(--bright-blue) 0px 0px 3rem, var(--bright-blue) 0px 0px 4rem;
+}
+
+.button {
+    display: inline-block;
+    font-family: 'Avenir', 'Nunito', sans-serif;
+    color: white;
+    font-weight: 900;
+    background-color: var(--bright-blue);
+    padding: .75em;
+    border-radius: .35em;
+    margin-top: 0.5rem;
+}
+
+.button:hover {        
+    transition: all 0.2s ease;
+    color:  var(--bright-blue);
+    background-color: white;
+    outline:  var(--bright-blue);
+    outline-style: solid;
+    outline-width: .2em;
+    outline-offset: -0.15rem;
+}
+.button, a.button, a.button:hover {
+    text-decoration: none;
+}
+
+.button:active {
+    outline-style: inset;
+    color:  var(--dark-blue);
+}
+
+.list-block {
+    list-style: circle;
+    margin-left: 2rem;
+}
+.container ul {
+    list-style: "»";
+    padding: 0 0 0 .5rem;
+    text-indent: 1em;
+}
+.container li {
+    font-weight: 900;
+    color: var(--bright-blue);
+}
+li p {
     margin: 0;
-    padding: 0;
-    padding: 2.5rem;
-    flex-grow: 1;
+    color: black;
+    font-weight: 100;
 }
 
 
@@ -185,10 +247,15 @@ article {
     .main-nav {
         flex-direction: row;
         justify-content: space-around;
+        max-width: 40rem;
     }
     .main-nav a {
         padding: 2em;
     }
+    img.logo {
+        margin: 0;
+    }
+    
 }
 
 @media only screen and (min-width: 60em) {
@@ -199,33 +266,13 @@ article {
     }
     .main-nav {
         justify-content: flex-end;
+        max-width: none;
     }
-    .logo {
-        text-align: left;
-        padding: 0 0 0 .5em;
-        width: 100%;
+    img.logo {
+        padding: 1em;
     }
     .card {
-        max-width: 50rem;
-        height: 15rem;
-        display: flex;
-        flex-direction: row;
-        margin: 2rem 1rem 0rem;
-        position: relative;
-        top: 0;
-    }
-    .photo {
-        width: 15em;
-        border-right: solid #000;
-        border-bottom: none;
-    }
-    .cardarticle {
-        width: 35em;
-        background-color: none;
-        flex-grow: 1;
-    }
-    .cardarticle h2 {
-        text-align: left;
+    
     }
 
 }
