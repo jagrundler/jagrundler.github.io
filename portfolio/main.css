@@ -12,19 +12,6 @@
     src:url(files/Avenir.ttc);
     font-weight: 500;
 }
-/*
-
-@font-face {
-    font-family: 'Avenir';
-    src:url(files/AdobeFnt20.lst);
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Avenir';
-    src:url(files/AdobeFnt21.lst);
-    font-weight: 900;
-}
-*/
 
 * {
     box-sizing: border-box;
@@ -222,20 +209,17 @@ div.container {
 }
 
 .list-block {
-    list-style: circle;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .container ul {
     list-style: "»";
-    padding: 0 0 0 .5rem;
-    text-indent: 1em;
 }
 .container li {
-    font-weight: 900;
     color: var(--bright-blue);
+    font-weight: 900;
 }
 li p {
-    margin: 0;
+    margin:  0 0 0 1rem;
     color: black;
     font-weight: 100;
 }
