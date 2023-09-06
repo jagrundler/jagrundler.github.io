@@ -243,9 +243,11 @@ li p {
 }
 .previews {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 10rem);
-    grid-template-rows: repeat(auto-fill, 10rem);
+    grid-template-columns: repeat(auto-fill, 11rem);
     margin-bottom: 1rem;
+}
+.previews div.card {
+    height: 10rem;
 }
 
 p.preview {
