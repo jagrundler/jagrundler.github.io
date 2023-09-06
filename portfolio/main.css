@@ -73,10 +73,11 @@ img.logo{
 }
 
 div.container {
-    max-width: 40em;
     margin: 0 auto;
     padding: 0 4em;
 }
+
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -138,14 +139,10 @@ div.container {
     text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
 }
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .card {
     box-shadow: gray 1px 1px 5px;
-    margin: 2rem 0rem;
+    margin: 5% 10% 5% 0%;
     position: relative;
     text-align: center;
     top: 0;
@@ -176,7 +173,20 @@ div.container {
     opacity: 100%;
     transition: all 0.2s ease;
     color: white;
-    text-shadow: var(--bright-blue) 0px 0px 2rem, var(--bright-blue) 0px 0px 3rem, var(--bright-blue) 0px 0px 4rem;
+}
+.compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, auto));    
+    margin-top: 2rem;
+}
+.compare div {
+    box-shadow: gray 1px 1px 5px;
+    margin: 0 2rem 5rem 0;
+}
+.compare h3 {
+    position: relative;
+    padding-top: 1rem;
+    text-align: center;
 }
 
 .button {
@@ -189,7 +199,6 @@ div.container {
     border-radius: .35em;
     margin-top: 0.5rem;
 }
-
 .button:hover {        
     transition: all 0.2s ease;
     color:  var(--bright-blue);
@@ -202,7 +211,6 @@ div.container {
 .button, a.button, a.button:hover {
     text-decoration: none;
 }
-
 .button:active {
     outline-style: inset;
     color:  var(--dark-blue);
@@ -213,10 +221,14 @@ div.container {
 }
 .container ul {
     list-style: "»";
+    margin-left: .5em;
 }
 .container li {
     color: var(--bright-blue);
     font-weight: 900;
+}
+.container p{
+    max-width: 50em;
 }
 li p {
     margin:  0 0 0 1rem;
@@ -224,7 +236,24 @@ li p {
     font-weight: 100;
 }
 
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, auto));
+    grid-template-rows: repeat(auto-fill, minmax(25rem, auto));
+}
+.previews {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10rem);
+    grid-template-rows: repeat(auto-fill, 10rem);
+    margin-bottom: 1rem;
+}
 
+p.preview {
+    margin-bottom: 0;
+}
+h2.preview {
+    margin-top: 2rem;
+}
 
 @media only screen and (min-width: 40em) {
   /*    NAV BAR    */
@@ -238,12 +267,10 @@ li p {
     }
     img.logo {
         margin: 0;
-    }
-    
+    }    
 }
 
 @media only screen and (min-width: 60em) {
-    
     /*    NAV BAR    */
     .flex-container {
         flex-direction: row;
@@ -255,10 +282,11 @@ li p {
     img.logo {
         padding: 1em;
     }
-    .card {
     
+    div.container {
+        max-width: 100em;
     }
-
 }
+
 
 }
