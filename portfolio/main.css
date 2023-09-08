@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Avenir';
-    src:url(files/Avenir.ttc);
+    src: url(files/Avenir.ttc);
     font-weight: 500;
 }
 
@@ -68,6 +68,7 @@ img {
 }
 img.logo{
     max-height: 10em;
+    max-width: 20em;
     margin-bottom: 1em;
     padding-top: 2em;
 }
