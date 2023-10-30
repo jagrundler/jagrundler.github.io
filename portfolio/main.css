@@ -205,17 +205,17 @@ div.container {
     font-family: 'Avenir', 'Nunito', sans-serif;
     color: white;
     font-weight: 900;
-    background-color: var(--bright-blue);
+    background-color: var(--medium-blue);
     padding: .75em;
     border-radius: .35em;
     margin-top: 0.5rem;
 }
 .button:hover {        
     transition: all 0.2s ease;
-    color:  var(--bright-blue);
+    color:  var(--medium-blue);
     background-color: white;
     outline:  var(--bright-blue);
-    outline-style: solid;
+    outline-style: outset;
     outline-width: .2em;
     outline-offset: -0.15rem;
 }
@@ -235,7 +235,7 @@ div.container {
     margin-left: 1.3rem;
 }
 .container li {
-    color: var(--bright-blue);
+    color: var(--medium-blue);
     font-weight: 900;
 }
 .container p{
