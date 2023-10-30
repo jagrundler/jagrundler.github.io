@@ -94,9 +94,9 @@ div.container {
 .script {
     font-family: 'Beloved-script', sans-serif;
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 5.5rem;
     color: white;
-    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--medium-blue) 0px 0px 8px, var(--dark-blue) 0px 0px 4px;
+    text-shadow: black 0 0 .3rem, var(--dark-blue) 0 0 .4rem, var(--medium-blue) 0 0 .8rem, var(--bright-blue) 0 0 1.2rem;
 }
 .home-title {
     font-size: 4rem;
@@ -134,16 +134,10 @@ div.container {
     color: var(--bright-blue);
 }
 
-.logo a:hover {
-    transition: all 0.3s ease;
-    color: white;
-    box-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
-
-}
 .main-nav a:hover {
     transition: all 0.3s ease;
     color: white;
-    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--medium-blue) 0px 0px 8px, var(--dark-blue) 0px 0px 4px;
+    text-shadow: black 0 0 .3rem, var(--dark-blue) 0 0 .4rem, var(--medium-blue) 0 0 .8rem, var(--bright-blue) 0 0 1.2rem;
 }
 
 
