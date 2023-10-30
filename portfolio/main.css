@@ -4,6 +4,7 @@
     --dark-orange: #b15701;
     --bright-blue: #009acd;
     --bright-blue-fade: #009acd55;
+    --medium-blue: #007FA9;
     --dark-blue: #00698c;
 }
 
@@ -57,7 +58,7 @@ p {
     text-decoration: none;
 }
 p a{
-    color: var(--bright-blue);
+    color: var(--medium-blue);
 }
 .container a:hover {
     text-decoration: underline double;
@@ -95,7 +96,7 @@ div.container {
     font-weight: 900;
     font-size: 5rem;
     color: white;
-    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
+    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--medium-blue) 0px 0px 8px, var(--dark-blue) 0px 0px 4px;
 }
 .home-title {
     font-size: 4rem;
