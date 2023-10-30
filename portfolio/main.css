@@ -53,17 +53,20 @@ p {
     margin-bottom: 1rem;
 }
 .container a {
-/*    color: var(--bright-blue);*/
     font-weight: 900;
     text-decoration: none;
+}
+.container a:visited {
+    color: darkslateblue;
 }
 p a{
     color: var(--medium-blue);
 }
 .container a:hover {
-    text-decoration: underline double;
+    text-decoration: underline double var(--medium-blue);
+    text-underline-offset: 0.15em;
 }
-.container a:active {
+a:active {
     color:  var(--dark-blue);
 }
 img {
@@ -91,13 +94,6 @@ div.container {
     justify-content: center;
     align-items: center;
 }
-.script {
-    font-family: 'Beloved-script', sans-serif;
-    font-weight: 900;
-    font-size: 5.5rem;
-    color: white;
-    text-shadow: black 0 0 .3rem, var(--dark-blue) 0 0 .4rem, var(--medium-blue) 0 0 .8rem, var(--bright-blue) 0 0 1.2rem;
-}
 .home-title {
     font-size: 4rem;
 }
@@ -123,6 +119,16 @@ div.container {
     width: 100%;
     letter-spacing: 0.3rem;
 }
+ul.main-nav a:hover {        
+    color:  var(--medium-blue);
+    border-bottom: var(--bright-blue) .2rem;
+    text-decoration: underline double var(--medium-blue);
+    text-underline-offset: 0.5em;
+}
+ul.main-nav a:active {        
+    transition: all 0.2s ease;
+    color:  var(--dark-blue);
+}
 
 .main-nav a {
     color: var(--bright-blue);
@@ -133,13 +139,6 @@ div.container {
 .main-nav a:visited, .logo a:visited {
     color: var(--bright-blue);
 }
-
-.main-nav a:hover {
-    transition: all 0.3s ease;
-    color: white;
-    text-shadow: black 0 0 .3rem, var(--dark-blue) 0 0 .4rem, var(--medium-blue) 0 0 .8rem, var(--bright-blue) 0 0 1.2rem;
-}
-
 
 .card {
     box-shadow: gray 1px 1px 5px;
