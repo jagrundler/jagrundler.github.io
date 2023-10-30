@@ -143,7 +143,7 @@ div.container {
 .main-nav a:hover {
     transition: all 0.3s ease;
     color: white;
-    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--bright-blue) 0px 0px 8px;
+    text-shadow: black 0px 0px 3px, var(--bright-blue) 0px 0px 12px, var(--medium-blue) 0px 0px 8px, var(--dark-blue) 0px 0px 4px;
 }
 
 
