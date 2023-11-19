@@ -220,8 +220,8 @@ footer {
 .button {
     display: inline-block;
     font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
     color: white;
-    font-weight: 900;
     background-color: var(--bright-blue);
     padding: .75em;
     border-radius: .35em;
